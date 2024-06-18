@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Crypto, Puppet, Crypto Puppet Show, Show">
+    <meta name="author" content="Oksfork">
+    <title>The Crypto Puppet Show || Watch Shorts</title>
+    <link rel="icon" href="assets/puppet_snake.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/_normalize.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        /* Additional CSS for layout and styling */
+        .video-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust height as needed */
+        }
+        .video-embed {
+            max-width: 800px;
+            width: 100%;
+            height: 450px; /* Adjust height as needed */
+        }
+        .sidebar {
+            width: 250px; /* Adjust width as needed */
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer; /* Ensure cursor changes on hover */
+        }
+        .sidebar a:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="header-container">
+            <div class="menu_block">
+                <div class="nav-container">
+                    <nav class="styled-navbar navmenu">
+                        <ul class="styled-navbar-ul">
+                            <li><a class="styled-navbar-ul-li__a" href="./">GO BACK</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <section id="video-section">
+            <div class="video-section">
+                <div class="player-container">
+                    <div class="episodes-container">
+                        <h1>SHORTS</h1>
+                        <div id="video-placeholder">
+                            <!-- Video will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Video Links</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/embed/usg5ZkFJIi4" target="video-frame">About the show</a></li>
+                <li><a href="https://www.youtube.com/embed/bu7Nv74TfMg" target="video-frame">Short 1</a></li>
+                <li><a href="https://www.youtube.com/embed/S4Ff2gILrig" target="video-frame">Short 2</a></li>
+            </ul>
+        </aside>
+        
+    </main>
+    
+    <footer id="footer_contact">
+        <div class="footer-content">
+            <img src="assets/img/puppets/puppet_snake.png" class="img_puppet_snake_video" alt="">
+            <address class="email">
+                Phillip@thx.network
+            </address>
+            <div class="social-icons">
+                <a href="https://x.com/Web3show" aria-label="X"><img src="assets/icons/ic_X.png" class="img_icons" alt=""></a>
+                <a href="#" aria-label="Tiktok"><img src="assets/icons/ic_Tiktok.png" class="img_icons" alt=""></a>
+                <a href="#" aria-label="Youtube"><img src="assets/icons/ic_youtube.png" class="img_icons" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Placeholder iframe for loading videos -->
+    <iframe id="video-frame" class="video-embed" name="video-frame" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
