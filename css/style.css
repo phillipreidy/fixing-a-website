@@ -516,11 +516,12 @@ footer {
 /* ---------------- */
 
 .video-section {
-    height: 80svh;
+    background: black;
+    display: flex;
     width: 100%;
-    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .player-container {
     display: flex;
@@ -529,49 +530,13 @@ footer {
     height: 100%;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
-.episodes-container {
-    background-color: #333;
-    width: 30%;
-    height: 100%;
-    overflow-y: auto;
-}
-
-.episodes-container h1 {
-    color: #fff;
-    font-size: 2em;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.episodes-list {
-    list-style-type: none;
-    padding: 10px;
-    width: 100%;
-    background-color: #333;
-    text-align: center;
-}
-
-.episodes-list li {
-    margin: 10px 0;
-    cursor: pointer;
-    color: white;
-    font-size: 1.2em;
-    transition: 0.3s all ease;
-}
-
-.episodes-list li:hover {
+.episodes-list li:hover a,
+.episodes-list li.selected a {
+    background: #333;
     color: #ffff71;
-    transition: 1s all ease;
-    transform: scale(1.1);
 }
-
-.episodes-list li.selected {
-    color: #ffff71;
-    font-size: 1.4em;
-}
-
 
 .player {
     width: 100%;
